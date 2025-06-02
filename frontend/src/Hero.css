@@ -1,0 +1,41 @@
+.Hero {
+    width: 1470px;
+    height: 100vh;
+    display: flex;
+}
+
+.Hero1 {
+    width: 100%;
+    border: solid blue;
+}
+
+.Hero2 {
+    width: 100%;
+    border: solid red;
+}
+
+.Hero3 {
+    width: 100%;
+    border: solid purple;
+}
+
+/* 💻 Kleine laptops & tablets (768px - 1023px) */
+@media (max-width: 1023px) and (min-width: 768px) {
+    .Hero {
+        border: solid orange;
+    }
+}
+
+/* 📱 Tablets & grote telefoons (481px - 767px) */
+@media (max-width: 767px) and (min-width: 481px) {
+    .Hero {
+        border: solid blue;
+    }
+}
+
+/* 📳 Mobiele telefoons (tot 480px) */
+@media (max-width: 480px) {
+    .Hero {
+        border: solid green;
+    }
+}
